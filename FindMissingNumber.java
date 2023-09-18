@@ -7,7 +7,7 @@ public class FindMissingNumber {
       sum += num;
     }
 
-    int n = seq.length; // You don't need to subtract 1 here
+    int n = seq.length+1; 
     int expectedSum = n * (n + 1) / 2;
     int missingNumber = expectedSum - sum;
 
