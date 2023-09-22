@@ -1,3 +1,4 @@
+// Constant Time 0(1) -Big O 
 public class ConstantTimeExample {
 
     public static void main(String[] args) {
