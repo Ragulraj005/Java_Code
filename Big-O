@@ -1,1 +1,17 @@
 
+Big O notation is a mathematical notation that describes the limiting behavior 
+of a function when the argument tends towards a particular value or infinity. 
+In computer science, big O notation is used to classify algorithms according to 
+how their run time or space requirements grow as the input size grows.
+
+Big O notation is important because it allows us to compare the efficiency of different algorithms. 
+For example, if we have two algorithms for solving the same problem, and one algorithm has an O(n) run time and the other algorithm 
+has an O(n^2) run time, we know that the first algorithm will be more efficient for large input sizes.
+
+Here are some common big O notations:
+
+O(1): Constant time - The algorithm will always take the same amount of time to run, regardless of the input size.
+O(log n): Logarithmic time - The algorithm's run time grows logarithmically with the input size. This means that the run time will double for every doubling of the input size.
+O(n): Linear time - The algorithm's run time grows linearly with the input size. This means that the run time will double for every doubling of the input size.
+O(n^2): Quadratic time - The algorithm's run time grows quadratically with the input size. This means that the run time will quadruple for every doubling of the input size.
+O(n!): Exponential time - The algorithm's run time grow
