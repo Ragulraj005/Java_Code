@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CommonElementsInThreeArrays {
+public class CommonElementsInThreeArrays { 
     public static List<Integer> findCommonElements(int[] arr1, int[] arr2, int[] arr3) {
         List<Integer> commonElements = new ArrayList<>();
            
